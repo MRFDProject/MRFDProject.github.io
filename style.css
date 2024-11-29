@@ -5,7 +5,7 @@
 }
 
 .navigasi {
-    background-color: #3b4997;
+    background-color: #42a730;
     width: 100%;
     height: 70px;
     color: white;
@@ -37,16 +37,17 @@
 }
 
 .menu ul li a:hover {
-    color: lightskyblue;
+    color: rgb(74, 105, 28);
     font-style: italic;
 }
 
+
 .banner {
-    background-color: #3b5999;
-    height: 600px;
+    background-color: #2eea37;
+    height: 700px;
     text-align: center;
-    color: white;
 }
+
 
 .banner img{
     border-radius: 100px;
@@ -58,6 +59,7 @@
 .banner h1 {
     margin-top: 10px;
     margin-bottom: 10px;
+    color: white;
 }
 
 .banner button {
@@ -69,16 +71,17 @@
 }
 
 .banner button:hover {
-    background-color: #3b5999;
+    background-color: rgb(74, 105, 28);
     border: 1px solid white;
     color: white;
 }
+
 
 h1 span::before {
     content: '';
     animation: gerak infinite 8s ease;
     transform: translateY(-50%);
-    color: lightblue;
+    color: white;
     font-size: 70px;
 }
 
@@ -95,6 +98,8 @@ h1 span::before {
 }
 
 .box-pendidikan {
+    background-color: #2eea37;
+    height: 700px;
     text-align: center;
     color: #4d4d4d;
     margin-top: 90px;
@@ -113,7 +118,7 @@ h1 span::before {
 }
 
 .box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
-    background-color: #3b5999;
+    background-color: rgb(74, 105, 28);
     color: white;
 }
 
@@ -126,8 +131,8 @@ h1 span::before {
 .box-talent {
     text-align: center;
     color: #4d4d4d;
-    margin: 0px auto ;
-    margin-top:30px;
+    margin: 10px auto ;
+    margin-top:40px;
 }
 
 .box-kontak img {
